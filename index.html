@@ -214,6 +214,240 @@
             
               
                 
+                <a class="post-title-link" href="/2016/07/13/linux-terminal/" itemprop="url">
+                  Linux UserInterface Guide
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2016-07-13T00:00:00+08:00" content="2016-07-13">
+              2016-07-13
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/07/13/linux-terminal/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/13/linux-terminal/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Improving efficiency is the aim.</p>
+<h2 id="Terminal-Colorize"><a href="#Terminal-Colorize" class="headerlink" title="Terminal Colorize"></a>Terminal Colorize</h2><p>Colorful Pattern (directory/excutable files) could help fast focus and enhance memory in the file move.<br>From two ways (terminal/ color setting), such color change is enabled.</p>
+<h3 id="Terminal"><a href="#Terminal" class="headerlink" title="Terminal"></a>Terminal</h3><p>zsh</p>
+<h3 id="Configuring-LS-COLORS"><a href="#Configuring-LS-COLORS" class="headerlink" title="Configuring LS_COLORS"></a>Configuring LS_COLORS</h3><p>LS_COLORS is the ls color environment variable. By setting its vaule, you can easily change list directory type.</p>
+<p>Official Document: Bash Reference Manual<br><a href="http://www.gnu.org/software/bash/manual/bash.html" target="_blank" rel="external">http://www.gnu.org/software/bash/manual/bash.html</a></p>
+<p>Reference<br>[1]<a href="http://www.bigsoft.co.uk/blog/index.php/2008/04/11/configuring-ls_colors" target="_blank" rel="external">http://www.bigsoft.co.uk/blog/index.php/2008/04/11/configuring-ls_colors</a><br>[2]Best<a href="https://web.archive.org/web/20140807232939/http://www.geekgumbo.com/2011/11/04/changing-the-directory-color-in-the-bash-shell/" target="_blank" rel="external">https://web.archive.org/web/20140807232939/http://www.geekgumbo.com/2011/11/04/changing-the-directory-color-in-the-bash-shell/</a><br>[3]<a href="http://unix.stackexchange.com/questions/2897/clicolor-and-ls-colors-in-bash" target="_blank" rel="external">http://unix.stackexchange.com/questions/2897/clicolor-and-ls-colors-in-bash</a><br>[4]<a href="http://askubuntu.com/questions/466198/how-do-i-change-the-color-for-directories-with-ls-in-the-console" target="_blank" rel="external">http://askubuntu.com/questions/466198/how-do-i-change-the-color-for-directories-with-ls-in-the-console</a><br>[5]<a href="http://leocharre.com/articles/setting-ls_colors-colors-of-directory-listings-in-bash-terminal/" target="_blank" rel="external">http://leocharre.com/articles/setting-ls_colors-colors-of-directory-listings-in-bash-terminal/</a></p>
+<h2 id="Shell-Prompt"><a href="#Shell-Prompt" class="headerlink" title="Shell Prompt"></a>Shell Prompt</h2><p>Shorten the length</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PS1="\[<span class="link_label">\033[1;34m\</span>][<span class="link_reference">\H:\W</span>]$\[\033[0m\] "</span><br></pre></td></tr></table></figure>
+<p>[1]<a href="http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html" target="_blank" rel="external">http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html</a></p>
+<h2 id="Alias"><a href="#Alias" class="headerlink" title="Alias"></a>Alias</h2><figure class="highlight monkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># ls</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">l</span>.=<span class="string">"ls -d .* --color=tty"</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">ll</span>=<span class="string">"ls -l --color=tty"</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">ls</span>=<span class="string">"ls --color=tty"</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">vi</span>=<span class="string">"vim"</span><span class="preprocessor"></span><br><span class="line"></span><br><span class="line"># clear</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">cl</span>=<span class="string">"clear"</span><span class="preprocessor"></span><br><span class="line"></span><br><span class="line"># mkdir</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">mkd</span>=<span class="string">"mkdir"</span><span class="preprocessor"></span><br><span class="line"></span><br><span class="line"># compiler</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">ftn</span>=<span class="string">"gfortran"</span><span class="preprocessor"></span><br><span class="line"></span><br><span class="line"># python</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">py</span>=<span class="string">"python"</span><span class="preprocessor"></span><br><span class="line"></span><br><span class="line"># open file as default</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">open</span>=<span class="string">"cygstart"</span><span class="preprocessor">       #cygwin</span><span class="preprocessor"></span><br><span class="line">#alias open="xdg-open"       #linux, xdg-utils package, hard to build from source</span><span class="preprocessor"></span><br><span class="line">#alias open="start"          #git bash</span><span class="preprocessor"></span><br><span class="line"></span><br><span class="line"># pdf reader</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">pdf</span>=<span class="string">"acroreader"</span><span class="preprocessor">       #adobe pdf reader</span><span class="preprocessor"></span><br><span class="line"></span><br><span class="line"># tmux      --man tmux </span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">tmuxsource</span>=<span class="string">"tmux start-server \; source ~/.tmux.conf"</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">tmuxks</span>=<span class="string">"tmux kill-session -t "</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">tmuxkw</span>=<span class="string">"tmux kill-session -w "</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">tmuxkp</span>=<span class="string">"tmux kill-pane -t "</span>  </span><br><span class="line"><span class="keyword">alias</span> <span class="title">tmuxls</span>=<span class="string">"tmux list-sessions"</span> </span><br><span class="line"><span class="keyword">alias</span> <span class="title">tmuxlw</span>=<span class="string">"tmux list-windows"</span> </span><br><span class="line"><span class="keyword">alias</span> <span class="title">tmuxlp</span>=<span class="string">"tmux list-panes"</span>  </span><br><span class="line"><span class="keyword">alias</span> <span class="title">tmuxsh</span>=<span class="string">"tmux splitw -h"</span></span><br><span class="line"><span class="keyword">alias</span> <span class="title">tmuxsv</span>=<span class="string">"tmux splitw -v"</span></span><br></pre></td></tr></table></figure>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2>
+          
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/07/10/kvim-install/" itemprop="url">
+                  k-vim install guide
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2016-07-10T00:00:00+08:00" content="2016-07-10">
+              2016-07-10
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Equipment/" itemprop="url" rel="index">
+                    <span itemprop="name">Equipment</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/07/10/kvim-install/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/10/kvim-install/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>package dependency</p>
+<p>ctags</p>
+<h2 id="Windows-Installation"><a href="#Windows-Installation" class="headerlink" title="Windows Installation"></a>Windows Installation</h2><p>better use cygwin or related software like Mobaxterm<br>Package:<br>vim better to make<br>install pip by get.py, meet HTTPs error -&gt; install openssl. use “apt-cyg find openssl” and find python-openssl. just install it.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">apt-cyg <span class="operator"><span class="keyword">install</span> ctags</span><br><span class="line">apt-cyg <span class="keyword">install</span> python-devel        ;</span> <span class="operator"><span class="keyword">install</span> caja-python-devel <span class="keyword">for</span> convenience</span><br><span class="line">apt-<span class="keyword">get</span> <span class="keyword">install</span> the_silver_searcher</span><br><span class="line">apt-<span class="keyword">get</span> <span class="keyword">install</span> cmake</span><br><span class="line">apt-<span class="keyword">get</span> <span class="keyword">install</span> python-openssl</span></span><br></pre></td></tr></table></figure>
+<p>after install kvim, YouCompleteMe may find <strong>ycmd module not find</strong> error. Then get into .vim/bundle/YouCompleteme/</p>
+<figure class="highlight brainfuck"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">git</span> <span class="comment">submodule</span> <span class="comment">update</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">init</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">recursive</span></span><br></pre></td></tr></table></figure>
+<h2 id="Basic-Settings"><a href="#Basic-Settings" class="headerlink" title="Basic Settings"></a>Basic Settings</h2><h2 id="Software-Adided"><a href="#Software-Adided" class="headerlink" title="Software Adided"></a>Software Adided</h2><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2>
+          
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/07/10/keyboard/" itemprop="url">
                   Ducky mini Keyboard Usage Conclusion
                 </a>
@@ -767,7 +1001,7 @@
 <h2 id="Editor"><a href="#Editor" class="headerlink" title="Editor"></a>Editor</h2><p>Sound Editor: Cool Editor<br>Video player: Daumplayer<br>Word Editor: Latex (Format + Math: Easy)</p>
 <h2 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h2><p>Browser:Firefox + Vimperator (Best); Chrome<br>Email: ThunderBird(Sync with Google Calender; RSS Feed)<br>Cross-wall: lantern (github,lantern)</p>
 <h2 id="Study"><a href="#Study" class="headerlink" title="Study"></a>Study</h2><p>Word Remember: Word Storm<br>Mindmap: FreeMind(Fast+ShortKeys)</p>
-<h2 id="Computer-Accessories"><a href="#Computer-Accessories" class="headerlink" title="Computer Accessories"></a>Computer Accessories</h2><p>Windows ShortKeys: AutoHotkey (Window Replace; Powerful Interface)<br>Termianl: Git Bash (better); Cygwin<br>Multiscreen Single Mouse Key: synergy (no hypen and highclass)<br>.iso : DAMEON Tools Lite<br>Script: Python</p>
+<h2 id="Computer-Accessories"><a href="#Computer-Accessories" class="headerlink" title="Computer Accessories"></a>Computer Accessories</h2><p>Windows ShortKeys: AutoHotkey (Window Replace; Powerful Interface)<br>Termianl: Git Bash (better); Cygwin ; tmux(linux, really convenient with Mobaxterm)<br>Multiscreen Single Mouse Key: synergy (no hypen and highclass)<br>.iso : DAMEON Tools Lite<br>Script: Python</p>
 
           
         
@@ -931,8 +1165,7 @@
 <h2 id="Reference-and-Hyperlink"><a href="#Reference-and-Hyperlink" class="headerlink" title="Reference and Hyperlink"></a>Reference and Hyperlink</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="number">1</span>]http:<span class="comment">//google.com/</span></span><br></pre></td></tr></table></figure>
 <p>[1]<a href="http://google.com/" target="_blank" rel="external">http://google.com/</a></p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="link_label">GitHub Mark</span>](<span class="link_url">http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png "GitHub Mark"</span>)</span><br></pre></td></tr></table></figure>
-<p><img src="http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Mark" title="GitHub Mark"><br><img src="https://raw.githubusercontent.com/wklken/gallery/master/vim/thenerdtree.gif" alt="Vim Demo" title="Cool Demo"></p>
-<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="string">http:</span><span class="comment">//google.com/&gt;</span></span><br></pre></td></tr></table></figure>
+<p><img src="http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Mark" title="GitHub Mark"><br><img src="https://raw.githubusercontent.com/wklken/gallery/master/vim/thenerdtree.gif" alt="Vim Demo" title="Cool Demo Referred by k-vim in Github"><br><img src="https://www.flickr.com/photos/kent-macdonald/27619639083/" alt="Flickr Picture Store" title="Flickr Picture"><br><img src="http://i.imgur.com/VAo88AV.png" alt="Imgur Picture Store" title="Imgur Picture"><br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="string">http:</span><span class="comment">//google.com/&gt;</span></span><br></pre></td></tr></table></figure></p>
 <p><a href="http://google.com/" target="_blank" rel="external">http://google.com/</a></p>
 <h2 id="Denotation"><a href="#Denotation" class="headerlink" title="Denotation"></a>Denotation</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- denotation --&gt;</span></span><br></pre></td></tr></table></figure>
 <h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>[1]<a href="http://ibruce.info/2013/11/26/markdown/" target="_blank" rel="external">http://ibruce.info/2013/11/26/markdown/</a><br>[2]<a href="http://rmarkdown.rstudio.com/authoring\_basics.html" target="_blank" rel="external">http://rmarkdown.rstudio.com/authoring\_basics.html</a></p>
@@ -998,7 +1231,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-count">6</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
@@ -1006,7 +1239,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">categories</span>
               </a>
             </div>
@@ -1015,7 +1248,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">16</span>
+                <span class="site-state-item-count">17</span>
                 <span class="site-state-item-name">tags</span>
               </a>
             </div>
