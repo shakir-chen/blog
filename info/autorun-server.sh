@@ -145,4 +145,9 @@ ToeflINFO.txt
 Trash
 video
 xuanqi-smile.jpg
-]0;xuanqi@lab: /home/xuanqi
+]0;xuanqi@lab: /home/xuanqi[5 q
+]0;xuanqi@lab: /home/xuanqixuanqi@passion.ece.ust.hk
+xuanqi@rostam.ece.ust.hk
+xuanqi@magic.ece.ust.hk
+xuanqi@young.ece.ust.hk
+xuanqi@iron.ece.ust.hk
