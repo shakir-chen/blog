@@ -3,31 +3,11 @@
 =============================== passion ===============================
 
 
-=============================== young ===============================
-
-
 =============================== rostam ===============================
-
-
-=============================== iron ===============================
 
 
 =============================== magic ===============================
 
-Last failed login: Mon Jan 15 01:59:29 HKT 2018 from eepc95.ee.ust.hk on ssh:notty
-There were 16 failed login attempts since the last successful login.
-top - 02:00:15 up 6 days, 16:58,  4 users,  load average: 13.01, 13.04, 13.05
-Tasks: 441 total,  11 running, 430 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 31.3 us,  0.2 sy,  0.0 ni, 68.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem : 49409048 total, 16432488 free,  9235952 used, 23740608 buff/cache
-KiB Swap: 24707068 total, 24707068 free,        0 used. 39245376 avail Mem 
-
-  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
-15135 zhongyu+  20   0 1129960 707800   6084 R 106.7  1.4   9391:36 jade.exec
-15137 zhongyu+  20   0 1129984 707832   6076 R 106.7  1.4   9391:37 jade.exec
-15138 zhongyu+  20   0 1129872 705712   6092 R 106.7  1.4   9391:24 jade.exec
-15139 zhongyu+  20   0 1129892 707700   6072 R 106.7  1.4   9391:29 jade.exec
-15140 zhongyu+  20   0 1134000 711824   6080 R 106.7  1.4   9391:24 jade.exec
 
 =============================== young ===============================
 
