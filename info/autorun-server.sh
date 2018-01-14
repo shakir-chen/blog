@@ -4,6 +4,7 @@ SERV=(passion rostam magic young iron)
 NUM=4
 logfile="serverlog.txt"
 
+cd ~/Dropbox/Linux/Documents/Blog/Homepage/github/shakir-chen.github.io/info/
 rm -f $logfile
 
 echo "~~~~~~~~~~~~~~~~~~~~ Auto-Monitor ~~~~~~~~~~~~~~~~~~~~ " >> $logfile
@@ -28,3 +29,120 @@ git commit -m "autopush server-log"
 git push origin master
 
 echo "Upload Finished" >> /home/xuanqi/test.log
+[5 q
+]0;xuanqi@lab: /home/xuanqicolor-matplotlib.png
+Dairy
+Desktop
+Documents
+Downloads
+Dropbox
+figure_1.png
+IT_Stuffs_new.mm
+linux-problem.md
+Logitech.pdf
+Music
+Nutstore
+plan.txt
+Research
+Software
+svn
+tab.sh
+test.log
+texmf
+ToeflINFO.txt
+Trash
+video
+xuanqi-smile.jpg
+]0;xuanqi@lab: /home/xuanqicolor-matplotlib.png
+Dairy
+Desktop
+Documents
+Downloads
+Dropbox
+figure_1.png
+IT_Stuffs_new.mm
+linux-problem.md
+Logitech.pdf
+Music
+Nutstore
+plan.txt
+Research
+Software
+svn
+tab.sh
+test.log
+texmf
+ToeflINFO.txt
+Trash
+video
+xuanqi-smile.jpg
+]0;xuanqi@lab: /home/xuanqicolor-matplotlib.png
+Dairy
+Desktop
+Documents
+Downloads
+Dropbox
+figure_1.png
+IT_Stuffs_new.mm
+linux-problem.md
+Logitech.pdf
+Music
+Nutstore
+plan.txt
+Research
+Software
+svn
+tab.sh
+test.log
+texmf
+ToeflINFO.txt
+Trash
+video
+xuanqi-smile.jpg
+]0;xuanqi@lab: /home/xuanqicolor-matplotlib.png
+Dairy
+Desktop
+Documents
+Downloads
+Dropbox
+figure_1.png
+IT_Stuffs_new.mm
+linux-problem.md
+Logitech.pdf
+Music
+Nutstore
+plan.txt
+Research
+Software
+svn
+tab.sh
+test.log
+texmf
+ToeflINFO.txt
+Trash
+video
+xuanqi-smile.jpg
+]0;xuanqi@lab: /home/xuanqicolor-matplotlib.png
+Dairy
+Desktop
+Documents
+Downloads
+Dropbox
+figure_1.png
+IT_Stuffs_new.mm
+linux-problem.md
+Logitech.pdf
+Music
+Nutstore
+plan.txt
+Research
+Software
+svn
+tab.sh
+test.log
+texmf
+ToeflINFO.txt
+Trash
+video
+xuanqi-smile.jpg
+]0;xuanqi@lab: /home/xuanqi

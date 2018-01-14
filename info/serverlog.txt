@@ -2,63 +2,63 @@
 
 =============================== passion ===============================
 
-top - 01:42:13 up 1 day, 22:16,  2 users,  load average: 11.20, 11.26, 11.31
-Tasks: 310 total,  11 running, 299 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 48.0 us, 15.2 sy,  0.0 ni, 36.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem : 49452416 total, 21289492 free,  9912820 used, 18250104 buff/cache
-KiB Swap: 25825276 total, 25825276 free,        0 used. 38682220 avail Mem 
+top - 01:48:57 up 1 day, 22:22,  2 users,  load average: 11.20, 11.29, 11.31
+Tasks: 309 total,  11 running, 298 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 52.0 us, 10.8 sy,  0.0 ni, 36.8 id,  0.0 wa,  0.0 hi,  0.4 si,  0.0 st
+KiB Mem : 49452416 total, 21199212 free,  9913284 used, 18339920 buff/cache
+KiB Swap: 25825276 total, 25825276 free,        0 used. 38675740 avail Mem 
 
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
-24772 wchen     20   0 1061996 642208   6000 R 106.2  1.3 597:41.68 jade.exec
-24777 wchen     20   0 1062128 644076   6020 R 106.2  1.3 597:41.48 jade.exec
-24769 wchen     20   0 1062100 642036   6020 R 100.0  1.3 597:41.39 jade.exec
-24770 wchen     20   0 1062096 641592   5988 R 100.0  1.3 597:50.24 jade.exec
-24771 wchen     20   0 1061996 643936   6020 R 100.0  1.3 597:41.51 jade.exec
+24771 wchen     20   0 1061996 643936   6020 R 100.0  1.3 604:25.13 jade.exec
+24772 wchen     20   0 1061996 642216   6000 R 100.0  1.3 604:25.32 jade.exec
+24773 wchen     20   0 1061972 641424   6016 R 100.0  1.3 604:34.10 jade.exec
+24775 wchen     20   0 1062128 641960   6008 R 100.0  1.3 604:33.81 jade.exec
+24777 wchen     20   0 1062128 644084   6020 R 100.0  1.3 604:25.07 jade.exec
 
 =============================== rostam ===============================
 
-top - 01:43:20 up 6 days, 16:40,  5 users,  load average: 1.08, 1.03, 1.05
-Tasks: 465 total,   1 running, 464 sleeping,   0 stopped,   0 zombie
+top - 01:50:04 up 6 days, 16:47,  5 users,  load average: 1.04, 1.03, 1.05
+Tasks: 464 total,   1 running, 463 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.2 us,  0.3 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem : 49409052 total, 32677604 free,  2994452 used, 13736996 buff/cache
-KiB Swap: 24707068 total, 23516304 free,  1190764 used. 45687420 avail Mem 
+KiB Mem : 49409052 total, 32669536 free,  3000512 used, 13739004 buff/cache
+KiB Swap: 24707068 total, 23516304 free,  1190764 used. 45681664 avail Mem 
 
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
- 1321 xuanqi    20   0  157980   2332   1488 R  17.6  0.0   0:00.03 top
-    1 root      20   0  193164   3188   1576 S   0.0  0.0   2:55.35 systemd
+ 1218 backuppc  30  10  167816  16004   2400 D   5.9  0.0   0:09.80 BackupPC_l+
+ 1468 xuanqi    20   0  157980   2328   1488 R   5.9  0.0   0:00.02 top
+29816 peng      20   0 9864.4m 1.606g  14416 S   5.9  3.4  71:30.18 java
+    1 root      20   0  193164   3188   1576 S   0.0  0.0   2:55.51 systemd
     2 root      20   0       0      0      0 S   0.0  0.0   0:00.23 kthreadd
-    3 root      20   0       0      0      0 S   0.0  0.0   0:04.07 ksoftirqd/0
-    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:+
 
 =============================== magic ===============================
 
-top - 01:42:24 up 6 days, 16:40,  3 users,  load average: 13.73, 13.58, 13.55
-Tasks: 412 total,  12 running, 375 sleeping,  25 stopped,   0 zombie
-%Cpu(s): 59.9 us,  3.6 sy,  6.1 ni, 29.7 id,  0.7 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem : 49285572 total, 19677236 free, 10179596 used, 19428740 buff/cache
-KiB Swap: 24772604 total, 24772604 free,        0 used. 38261752 avail Mem 
+top - 01:49:08 up 6 days, 16:47,  3 users,  load average: 13.46, 13.53, 13.54
+Tasks: 413 total,  12 running, 376 sleeping,  25 stopped,   0 zombie
+%Cpu(s): 44.5 us, 18.7 sy,  6.0 ni, 29.7 id,  0.0 wa,  0.0 hi,  1.1 si,  0.0 st
+KiB Mem : 49285572 total, 19611008 free, 10178280 used, 19496284 buff/cache
+KiB Swap: 24772604 total, 24772604 free,        0 used. 38258820 avail Mem 
 
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
- 1053 zhongyu+  20   0 1068464 648368   6080 R 100.0  1.3   4511:37 jade.exec
- 1068 zhongyu+  20   0 1068548 648400   6084 R 100.0  1.3   4513:22 jade.exec
- 5583 zhifei    39  19  803812  14996   8532 R 100.0  0.0   2153:52 tracker-ex+
- 1047 zhongyu+  20   0 1068540 648056   6092 R  94.1  1.3   4514:40 jade.exec
- 1048 zhongyu+  20   0 1068536 648148   6080 R  94.1  1.3   4512:28 jade.exec
+ 1048 zhongyu+  20   0 1068668 648164   6080 R 100.0  1.3   4519:12 jade.exec
+ 1068 zhongyu+  20   0 1068548 648416   6084 R 100.0  1.3   4520:05 jade.exec
+ 1047 zhongyu+  20   0 1068672 648072   6092 R  94.1  1.3   4521:24 jade.exec
+ 1049 zhongyu+  20   0 1068660 648084   6084 R  94.1  1.3   4519:00 jade.exec
+ 1050 zhongyu+  20   0 1068648 648376   6084 R  94.1  1.3   4519:26 jade.exec
 
 =============================== young ===============================
 
 
 =============================== iron ===============================
 
-top - 01:42:37 up 6 days, 16:40,  4 users,  load average: 13.03, 13.05, 13.05
+top - 01:49:20 up 6 days, 16:47,  4 users,  load average: 13.02, 13.02, 13.05
 Tasks: 437 total,  11 running, 426 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 31.8 us,  0.6 sy,  0.0 ni, 67.3 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem : 49409048 total, 17983216 free,  9232676 used, 22193156 buff/cache
-KiB Swap: 24707068 total, 24707068 free,        0 used. 39259912 avail Mem 
+%Cpu(s): 31.3 us,  0.4 sy,  0.0 ni, 67.6 id,  0.8 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 49409048 total, 17619584 free,  9232148 used, 22557316 buff/cache
+KiB Swap: 24707068 total, 24707068 free,        0 used. 39256788 avail Mem 
 
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
-15135 zhongyu+  20   0 1129828 707740   6084 R 100.0  1.4   9373:57 jade.exec
-15137 zhongyu+  20   0 1129852 707756   6076 R 100.0  1.4   9373:58 jade.exec
-15138 zhongyu+  20   0 1129740 705644   6092 R 100.0  1.4   9373:45 jade.exec
-15139 zhongyu+  20   0 1129760 707648   6072 R 100.0  1.4   9373:51 jade.exec
-15140 zhongyu+  20   0 1133868 711764   6080 R 100.0  1.4   9373:45 jade.exec
+15135 zhongyu+  20   0 1129960 707760   6084 R 100.0  1.4   9380:41 jade.exec
+15136 zhongyu+  20   0 1129928 705708   6084 R 100.0  1.4   9380:29 jade.exec
+15137 zhongyu+  20   0 1129852 707784   6076 R 100.0  1.4   9380:42 jade.exec
+15138 zhongyu+  20   0 1129872 705664   6092 R 100.0  1.4   9380:29 jade.exec
+15144 zhongyu+  20   0 1129932 707760   6092 R 100.0  1.4   9380:29 jade.exec
