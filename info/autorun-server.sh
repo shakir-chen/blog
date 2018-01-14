@@ -6,6 +6,8 @@ logfile="serverlog.txt"
 
 rm -f $logfile
 
+echo "~~~~~~~~~~~~~~~~~~~~ Auto-Monitor ~~~~~~~~~~~~~~~~~~~~ " >> $logfile
+
 for ((i=0; i<=$NUM; i++))
 do
 echo "" >> $logfile
@@ -18,5 +20,11 @@ top -n 1 -b | head -n 12
 ENDSSH
 done
 
-cat $logfile
+# cat $logfile
 # | tee -a log.txt
+
+git add *
+git commit -m "autopush server-log"
+git push origin master
+
+echo "Upload Finished" >> /home/xuanqi/test.log
