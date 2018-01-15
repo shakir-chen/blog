@@ -28,4 +28,5 @@ git add *
 git commit -m "autopush server-log"
 git push origin master
 
-echo "Upload Finished" >> /home/xuanqi/test.log
+# echo "Upload Finished" >> /home/xuanqi/test.log
+echo "Upload Finished" >> Upload.log
